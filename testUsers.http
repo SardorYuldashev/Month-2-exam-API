@@ -1,0 +1,47 @@
+### Ro'yxatdan o'tish
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "",
+  "email": "",
+  "password": ""
+}
+
+### Login qilish
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "email": "",
+  "password": ""
+}
+
+
+### Foydalanuvchilar ro'yxatini olish
+GET http://localhost:3000/users
+Authorization: 
+
+
+### Foydalanuvchi ma'lumotlarini olish
+GET http://localhost:3000/users/me
+Authorization: 
+
+
+### Foydalanuvchini o'chirish
+DELETE http://localhost:3000/users/:id
+Authorization:
+
+
+### Foydalanuvchi ma'lumotlarini tahrirlash
+PATCH http://localhost:3000/users/me
+Authorization: 
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "",
+  "email": "",
+  "password": ""
+}

@@ -1,0 +1,424 @@
+{
+  "users": [
+    {
+      "id": "5b06616e-6e8b-496d-b56e-a6c1c98dff12",
+      "firstName": "Sardor",
+      "lastName": "Yuldashev",
+      "email": "sardor@mail.ru",
+      "password": "$2b$10$HK6xdagQ7kkcC3MmyTRQFu0seBkFQsQ9JHayhIyyMFYtFQR3wEcZK",
+      "role": "superAdmin"
+    },
+    {
+      "id": "cbb73fa6-062e-4b3b-b39a-d738e0b5e42a",
+      "firstName": "Qurbon",
+      "lastName": "Qodirqulov",
+      "email": "qurbon@mail.ru",
+      "password": "$2b$10$FDlzYHfl6ZKhVp83vY4bEefSor00jcbjZhMV.AZlxo4TX73CgEW5S",
+      "role": "customer"
+    },
+    {
+      "id": "e1179ee1-f911-4f1f-954c-4c1ef822486d",
+      "firstName": "Imron",
+      "lastName": "Abdusalimov",
+      "email": "imron@mail.ru",
+      "password": "$2b$10$IEcwvzZpBGbH443MrC5C4.kQM4tFusLNX/Ef7a307B4Q/tT0U9N4W",
+      "role": "admin"
+    },
+    {
+      "id": "f6526eef-2783-49b2-9eca-9b8e447225e5",
+      "firstName": "Aziz",
+      "lastName": "Nabiyev",
+      "email": "aziz@mail.ru",
+      "password": "$2b$10$Ca1nZmbcUU7U.jWJyDGKveaOqjFHSW2CnpGSA9jBJrUAX7nQxaGWy",
+      "role": "customer"
+    },
+    {
+      "id": "a4dd6abf-4a9d-4531-ad36-20a941799162",
+      "firstName": "Bekzod",
+      "lastName": "Tuychiyev",
+      "email": "bekzod@bk.ru",
+      "password": "$2b$10$Lf.w/1oEPvomngN8C.6tSuQkI5DZq5aaS0DWyf6YIpi5RKZaMpN1W",
+      "role": "admin"
+    },
+    {
+      "id": "c69c4982-d5d1-4161-bf75-18cfd1c6a261",
+      "firstName": "Akmal",
+      "lastName": "Usmonov",
+      "email": "akmal@mail.ru",
+      "password": "$2b$10$WplDUinRTTsghEzBq49fp.UwdSoMfd9zWSUYWgBvbjpsX9ditxSS.",
+      "role": "admin"
+    },
+    {
+      "id": "8aa245ca-d742-4a50-a832-5c8d6acc4e64",
+      "firstName": "Oybek",
+      "lastName": "Xasanov",
+      "email": "oybek@mail.ru",
+      "password": "$2b$10$0AArpNUZ27FuRG1/okCTD.t/1NdHxMwggUCFHPX.tbQsAL50YmWvq",
+      "role": "customer"
+    },
+    {
+      "id": "01554e6c-b7f5-4284-a2ce-64761a3de783",
+      "firstName": "O'ral",
+      "lastName": "Xasanov",
+      "email": "ural@mail.ru",
+      "password": "$2b$10$AHk5arifVsT/SmvvHpack.UZPhoiA8k2bGn8Go7SyvDLfJqxq9gjS",
+      "role": "customer"
+    },
+    {
+      "id": "909cb18c-5358-4f3c-99ec-0748579f681f",
+      "firstName": "Bunyod",
+      "lastName": "Jo'rayev",
+      "email": "bunyod@mail.ru",
+      "password": "$2b$10$kyBLRbbAtE5h4oJSjj3U/uvPI8gcl6NQRqty.9T2E6/ck4QsiJiZ6",
+      "role": "customer"
+    },
+    {
+      "id": "4aa993f4-0716-48b7-b144-6c7f85aa6f3e",
+      "firstName": "Sherzod",
+      "lastName": "Arziyev",
+      "email": "sherzod@mail.ru",
+      "password": "$2b$10$RAe0TdS5uxPjMJq5P.7iLurzO5NTbA/LcKFH2gA1CNlLZ4xBaBDJK",
+      "role": "customer"
+    }
+  ],
+  "books": [
+    {
+      "id": "17a95e48-0d62-4bb7-814f-df11ebdef150",
+      "title": "Mehrobdan chayon",
+      "category": "badiy",
+      "authorId": "b6220df6-a8b2-4c06-b641-23e40b3a62e6"
+    },
+    {
+      "id": "8a92a7a5-8b0a-4c94-95d5-9df2758e6c6c",
+      "title": "Boy ota, kambag'al ota",
+      "category": "biznes",
+      "authorId": "1b400830-980f-4074-a7f6-d6e40faa9dd1"
+    },
+    {
+      "id": "9c06c6f4-5996-432b-bd91-a35b760e3fe9",
+      "title": "Besh tashabbus",
+      "category": "siyosat",
+      "authorId": "9fb00879-ea3b-4ff1-86d9-a0bbe8048477"
+    },
+    {
+      "id": "ac024106-26fb-434d-8c63-b5fbaf81dee0",
+      "title": "Fizika",
+      "category": "ilm-fan",
+      "authorId": "a565e525-3dbd-4a89-85e9-ee59c596b920"
+    },
+    {
+      "id": "309161d6-1347-4e66-abaf-ca173a6dfc4c",
+      "title": "O'tkan kunlar",
+      "category": "badiy",
+      "authorId": "b6220df6-a8b2-4c06-b641-23e40b3a62e6"
+    },
+    {
+      "id": "5d2f68ff-4922-4553-99e9-6c11b92cc038",
+      "title": "Ufq",
+      "category": "badiy",
+      "authorId": "bac26b46-a344-40c6-8996-0a22cc38dd51"
+    },
+    {
+      "id": "edcedc56-1845-4237-afd5-326eb63e0646",
+      "title": "Dunyoning ishlari",
+      "category": "badiy",
+      "authorId": "caf58d6c-ee2d-42b8-bac6-cd11c714284e"
+    },
+    {
+      "id": "8b362e2e-85e6-4df5-ac27-f4ee905a9841",
+      "title": "Daydi qizning daftari",
+      "category": "badiy",
+      "authorId": "6648e2a5-432d-443d-9c17-7daabb0b3bb4"
+    },
+    {
+      "id": "fbb5ad60-1da4-4c94-87e6-7d78df609d94",
+      "title": "Stiv Djobs",
+      "category": "biznes",
+      "authorId": "7d7f39b2-049e-4d12-8d8f-df7e83f55787"
+    },
+    {
+      "id": "e3a39263-26e4-4c40-bcae-10f50c3ede9b",
+      "title": "Muvaffaqiyatli insonlarning 7 ko'nikmasi",
+      "category": "biznes",
+      "authorId": "e5cc6c95-beb3-4e2b-abb1-4ae008eba264"
+    },
+    {
+      "id": "398106ea-a990-4049-a1cb-5050a316ebbc",
+      "title": "SOS! Savol ortidagi savol",
+      "category": "biznes",
+      "authorId": "293ab452-758f-49ce-94c4-ec73aaa941ba"
+    },
+    {
+      "id": "79c5ecde-58ad-4b6f-80d0-80fe7a26343c",
+      "title": "Samaradorlikning 21 yo'li",
+      "category": "biznes",
+      "authorId": "3a1cbe57-7474-488e-aba4-fa43fef28f85"
+    },
+    {
+      "id": "71b96b06-4c76-4446-8e93-3df735d8b416",
+      "title": "Mening hayotim",
+      "category": "biznes",
+      "authorId": "e6032043-754f-41e8-81bc-748c5e7b7702"
+    },
+    {
+      "id": "cbcd8238-594b-4b4c-b4fb-387742d2d5a0",
+      "title": "Mukammal xotira",
+      "category": "ilm-fan",
+      "authorId": "19f4aaa7-930c-42ad-b1f0-9d3462893206"
+    },
+    {
+      "id": "92a0fddb-0ed2-46eb-8234-c4183b3a8f65",
+      "title": "Fantom og'rig'i",
+      "category": "ilm-fan",
+      "authorId": "df87d8ef-f789-49e4-b4f0-874c0d6eed93"
+    },
+    {
+      "id": "e7adc890-c4bb-49a6-8f57-b27153a2b8ba",
+      "title": "Konfutsiylik",
+      "category": "ilm-fan",
+      "authorId": "8c622bd4-ee8a-48e4-ad5d-953f04b378ba"
+    },
+    {
+      "id": "4934d5f3-0355-4256-b09a-15fc78a5071a",
+      "title": "Fizika fanidan malumotnoma",
+      "category": "ilm-fan",
+      "authorId": "d7785fa6-4315-474e-8539-d6a69692185a"
+    },
+    {
+      "id": "afcf096c-fd05-493d-88b1-5f8f05b5efb7",
+      "title": "Geografiya fanidan savollar to'plami",
+      "category": "ilm-fan",
+      "authorId": "d1c64c6a-2066-4321-bebb-12b23c9ba730"
+    },
+    {
+      "id": "83bb23fb-2b6b-41ab-8d72-21346f1637bb",
+      "title": "Siyosat",
+      "category": "siyosat",
+      "authorId": "ead26da1-80f3-4c40-93ad-a85a3c4aac8a"
+    },
+    {
+      "id": "f0900c66-1279-49f2-8eff-7f8c81bccf2f",
+      "title": "Avtonom siyosatchi",
+      "category": "siyosat",
+      "authorId": "32db0736-b20f-4727-b19c-73f2e678ebef"
+    },
+    {
+      "id": "d540bce7-ba81-4e0f-940a-531e4aef5188",
+      "title": "Siyosatnoma",
+      "category": "siyosat",
+      "authorId": "bec3a3e4-9df4-4b2f-852a-892466c1036b"
+    },
+    {
+      "id": "67594ec4-2ddb-43f7-8310-6c9384da01b4",
+      "title": "Ozodlik manbai. Gettisberg murojaati",
+      "category": "siyosat",
+      "authorId": "1197760b-6da7-4714-91f3-5e1079339a55"
+    },
+    {
+      "id": "5f41446f-d1d6-45cc-9885-2248d1e954c6",
+      "title": "Kamin oldidagi suhbatlar. Inqiroz, oligarxlar va urush haqida",
+      "category": "siyosat",
+      "authorId": "cc4b7ea1-cf04-4ebd-af5d-cfda6927ce8e"
+    },
+    {
+      "id": "a328046d-ccad-4f67-b935-6ea3b9cb8817",
+      "title": "Davlat boshqaruvi san'ati: O'zgarayotgan dunyo uchun strategiyalar",
+      "category": "siyosat",
+      "authorId": "73ac1e06-7861-4256-808f-21867391493d"
+    },
+    {
+      "id": "3be394e3-a88a-4f38-8191-4c58888df8d8",
+      "title": "Hammasi yomon: umid haqida kitob",
+      "category": "boshqa",
+      "authorId": "c86b354c-e852-44a6-85c5-c6c38c1f47e3"
+    },
+    {
+      "id": "d19bb99b-3d0c-4a0c-9fad-f5058092ea10",
+      "title": "O'zingiz uchun oshpaz: retseptlarsiz pishirishni qanday o'rganish kerak",
+      "category": "boshqa",
+      "authorId": "d43b6f5e-2572-42e5-924c-c7f110ba1028"
+    },
+    {
+      "id": "12f12bd8-6909-4766-ac01-e89caddd6be1",
+      "title": "Kayfiyat terapiyasi",
+      "category": "boshqa",
+      "authorId": "b74c2771-da17-4cda-85e5-d3468175c04c"
+    },
+    {
+      "id": "e66626ce-5e1b-4559-a4c2-44ef52402c9f",
+      "title": "No filter: Instagram hikoyasi",
+      "category": "boshqa",
+      "authorId": "c294432a-b3b5-458b-bc40-429783889ef5"
+    },
+    {
+      "id": "7007b979-dc16-4509-afbe-228be232c35e",
+      "title": "Ko'r soat ishlab chiqaruvchi",
+      "category": "boshqa",
+      "authorId": "54300c85-2c74-4e7b-9a03-8d0f740bc4dc"
+    },
+    {
+      "id": "c660449a-6b04-4ffd-9df2-73a47add466a",
+      "title": "Xamsa",
+      "category": "badiy",
+      "authorId": "9c191840-76c7-4500-85fe-6e64a34ba21b"
+    },
+    {
+      "id": "e195ebeb-cc23-4784-abf1-6c62ce42f808",
+      "title": "Lison ut-tayr",
+      "category": "badiy",
+      "authorId": "9c191840-76c7-4500-85fe-6e64a34ba21b"
+    },
+    {
+      "id": "5e78fbf4-9d41-44d3-849f-a238c744363c",
+      "title": "Jamila",
+      "category": "badiy",
+      "authorId": "bac26b46-a344-40c6-8996-0a22cc38dd51"
+    },
+    {
+      "id": "304269b3-3925-425d-a7a7-8b56b397ef61",
+      "title": "Sarvqomat dilbarim",
+      "category": "badiy",
+      "authorId": "bac26b46-a344-40c6-8996-0a22cc38dd51"
+    },
+    {
+      "id": "5f47d600-5c81-4aee-97f1-f4e93982d065",
+      "title": "Nur borki soya bor",
+      "category": "badiy",
+      "authorId": "caf58d6c-ee2d-42b8-bac6-cd11c714284e"
+    },
+    {
+      "id": "ccbdea40-7dbe-4195-a01b-5dd2e12296b5",
+      "title": "Ikki eshik orasida",
+      "category": "badiy",
+      "authorId": "caf58d6c-ee2d-42b8-bac6-cd11c714284e"
+    },
+    {
+      "id": "d7909ba2-7482-4758-b357-c7f2b54a77cd",
+      "title": "Umr savdosi",
+      "category": "badiy",
+      "authorId": "caf58d6c-ee2d-42b8-bac6-cd11c714284e"
+    }
+  ],
+  "authors": [
+    {
+      "id": "b6220df6-a8b2-4c06-b641-23e40b3a62e6",
+      "name": "Abdulla Qodiriy"
+    },
+    {
+      "id": "1b400830-980f-4074-a7f6-d6e40faa9dd1",
+      "name": "Robert Kiyosaki"
+    },
+    {
+      "id": "9fb00879-ea3b-4ff1-86d9-a0bbe8048477",
+      "name": "Shavkat Mirziyoyev"
+    },
+    {
+      "id": "a565e525-3dbd-4a89-85e9-ee59c596b920",
+      "name": "Blez Paskal"
+    },
+    {
+      "id": "bac26b46-a344-40c6-8996-0a22cc38dd51",
+      "name": "Chingiz Aytmatov"
+    },
+    {
+      "id": "9c191840-76c7-4500-85fe-6e64a34ba21b",
+      "name": "Alisher Navoiy"
+    },
+    {
+      "id": "caf58d6c-ee2d-42b8-bac6-cd11c714284e",
+      "name": "O'tkir Xoshimov"
+    },
+    {
+      "id": "6648e2a5-432d-443d-9c17-7daabb0b3bb4",
+      "name": "Solih Qahhor"
+    },
+    {
+      "id": "7d7f39b2-049e-4d12-8d8f-df7e83f55787",
+      "name": "Uolter Ayzekzon"
+    },
+    {
+      "id": "3991bbf6-ed14-4a1d-afa9-c552d34a0245",
+      "name": "Xudoyberdi To'xtaboyev"
+    },
+    {
+      "id": "e5cc6c95-beb3-4e2b-abb1-4ae008eba264",
+      "name": "Stiven R. Kovi"
+    },
+    {
+      "id": "293ab452-758f-49ce-94c4-ec73aaa941ba",
+      "name": "Jon G. Miller"
+    },
+    {
+      "id": "3a1cbe57-7474-488e-aba4-fa43fef28f85",
+      "name": "Brayan Treysi"
+    },
+    {
+      "id": "e6032043-754f-41e8-81bc-748c5e7b7702",
+      "name": "Henri Ford"
+    },
+    {
+      "id": "19f4aaa7-930c-42ad-b1f0-9d3462893206",
+      "name": "Shohruh-Mirzo Rahmonov"
+    },
+    {
+      "id": "df87d8ef-f789-49e4-b4f0-874c0d6eed93",
+      "name": "Marziya Saydam"
+    },
+    {
+      "id": "8c622bd4-ee8a-48e4-ad5d-953f04b378ba",
+      "name": "Syu Fancheng"
+    },
+    {
+      "id": "d7785fa6-4315-474e-8539-d6a69692185a",
+      "name": "Xalilloyev Mahkam"
+    },
+    {
+      "id": "d1c64c6a-2066-4321-bebb-12b23c9ba730",
+      "name": "Nozima Tuyg'unova"
+    },
+    {
+      "id": "ead26da1-80f3-4c40-93ad-a85a3c4aac8a",
+      "name": "Aristotel"
+    },
+    {
+      "id": "32db0736-b20f-4727-b19c-73f2e678ebef",
+      "name": "Shoxrux O'ktamov"
+    },
+    {
+      "id": "bec3a3e4-9df4-4b2f-852a-892466c1036b",
+      "name": "Nizomulmulk"
+    },
+    {
+      "id": "1197760b-6da7-4714-91f3-5e1079339a55",
+      "name": "Avraam Linkoln"
+    },
+    {
+      "id": "cc4b7ea1-cf04-4ebd-af5d-cfda6927ce8e",
+      "name": "Franklin Ruzvelt"
+    },
+    {
+      "id": "73ac1e06-7861-4256-808f-21867391493d",
+      "name": "Margaret Tetcher"
+    },
+    {
+      "id": "c86b354c-e852-44a6-85c5-c6c38c1f47e3",
+      "name": "Mark Menson"
+    },
+    {
+      "id": "d43b6f5e-2572-42e5-924c-c7f110ba1028",
+      "name": "Yeva Punsh"
+    },
+    {
+      "id": "b74c2771-da17-4cda-85e5-d3468175c04c",
+      "name": "Devid Berns"
+    },
+    {
+      "id": "c294432a-b3b5-458b-bc40-429783889ef5",
+      "name": "Sara Brayer"
+    },
+    {
+      "id": "54300c85-2c74-4e7b-9a03-8d0f740bc4dc",
+      "name": "Richard Dokinz"
+    }
+  ]
+}

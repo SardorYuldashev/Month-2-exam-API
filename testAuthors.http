@@ -1,0 +1,33 @@
+### Muallif qo'shish
+POST http://localhost:3000/authors
+Authorization: 
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+
+### Mualliflar ro'yxatini olish
+GET http://localhost:3000/authors
+Authorization: 
+
+
+### Muallifni IDsiga ko'ra olish
+GET http://localhost:3000/authors/:id
+Authorization: 
+
+
+### Muallifning ma'lumotlarini tahrirlash
+PUT http://localhost:3000/authors/:id
+Authorization:
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+
+### Muallifnio'chirish
+DELETE http://localhost:3000/authors/:id
+Authorization:

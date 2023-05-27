@@ -1,0 +1,37 @@
+### Kitob qo'shsih
+POST http://localhost:3000/books
+Authorization: 
+Content-Type: application/json
+
+{
+  "title": "",
+  "category": "",
+  "authorId": ""
+}
+
+
+### Kitoblar ro'yxati
+GET http://localhost:3000/books
+Authorization:
+
+
+### Kitobni IDsiga ko'ra olish
+GET http://localhost:3000/books/:id
+Authorization: 
+
+
+### Kitobni tahrirlash
+PUT http://localhost:3000/books/:id
+Authorization: 
+Content-Type: application/json
+
+{
+  "title": "",
+  "category": "",
+  "authorId": ""
+}
+
+
+### Kitobni o'chirish
+DELETE http://localhost:3000/books/:id
+Authorization: 
